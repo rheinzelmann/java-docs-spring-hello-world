@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'rh-teste-java17'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CBF9FA40FF8D40AABA3C3404E51A69EA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9F17F32AB2F44C7AAF8CBF3B1E95429C }}
           package: '*.jar'
